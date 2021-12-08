@@ -33,12 +33,12 @@ No compatibility is provided. API and AOE can change at any point. These capabil
 It is common practice for Operators to use custom resource definitions (CRDs) internally to accomplish a task.  These objects are not meant for use by actors external to the Operator and are intended to be hidden.  If any CRD is not meant for use by actors external to the Operator, the `operators.operatorframework.io/internal-objects` annotation in the Operators `ClusterServiceVersion` (CSV) must be specified, and that signals that the corresponding resource is internal use only.
 
 [id="mapping-support-tiers-to-api-groups_{context}"]
-= Mapping API tiers to API groups
+== Mapping API tiers to API groups
 
 For each API tier defined by Red Hat, we provide a mapping table for specific API groups where the upstream communities are committed to maintain forward compatibility. Any API group that does not specify an explicit compatibility level is assigned API tier 3 by default.
 
 [id="mapping-support-tiers-to-kubernetes-api-groups_{context}"]
-== Support for Kubernetes API groups
+=== Support for Kubernetes API groups
 
 API groups that end with the suffix `*.k8s.io `or have the form `version.<name>` with no suffix are governed by the Kubernetes deprecation policy and follow a general mapping between API version exposed and corresponding support tier unless otherwise specified.
 
@@ -59,7 +59,7 @@ API groups that end with the suffix `*.k8s.io `or have the form `version.<name>`
 |===
 
 [id="mapping-support-tiers-to-openshift-api-groups_{context}"]
-== Support for OpenShift API groups
+=== Support for OpenShift API groups
 
 API groups that end with the suffix `*.openshift.io` are governed by the {product-title} deprecation policy and follow a general mapping between API version exposed and corresponding compatibility level unless otherwise specified.
 
@@ -119,7 +119,7 @@ API groups that end with the suffix `*.openshift.io` are governed by the {produc
 |===
 
 [id="mapping-support-tiers-to-monitoring-api-groups_{context}"]
-== Support for Monitoring API groups
+=== Support for Monitoring API groups
 
 API groups that end with the suffix `monitoring.coreos.com` have the following mapping:
 
