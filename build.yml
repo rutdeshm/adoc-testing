@@ -2,7 +2,7 @@ repository: ocp-tests
 variants:
  - name: okd
    attributes:
-    - _attributes/okd-attributes.adoc
+    - _artifacts/okd-attributes.adoc
    build: false
    files:
      included:
@@ -17,7 +17,7 @@ variants:
        - administering_a_cluster
  - name: openshift-container-platform
    attributes:
-    - _attributes/ocp-attributes.adoc
+    - _artifacts/ocp-attributes.adoc
    build: true
    files:
      included:
@@ -33,7 +33,7 @@ variants:
        - administering_a_cluster
  - name: openshift-dedicated
    attributes:
-    - _attributes/osd-attributes.adoc
+    - _artifacts/osd-attributes.adoc
    build: false
    files:
      included:
