@@ -2,7 +2,7 @@
 //
 // * virt/virtual_machines/virtual_disks/virt-creating-data-volumes.adoc
 
-:_content-type: CONCEPT
+
 [id="virt-creating-data-volumes-using-pvc-api_{context}"]
 = Creating data volumes using the PVC API
 

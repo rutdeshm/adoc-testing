@@ -2,7 +2,7 @@
 //
 // installing/installing_bare_metal_ipi/ipi-install-configuration-files.adoc
 
-:_content-type: CONCEPT
+
 [id='bmc-addressing_{context}']
 = BMC addressing
 

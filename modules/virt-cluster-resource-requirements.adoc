@@ -2,7 +2,7 @@
 //
 // * virt/install/preparing-cluster-for-virt.adoc
 
-:_content-type: CONCEPT
+
 [id="virt-cluster-resource-requirements_{context}"]
 = Additional hardware requirements for {VirtProductName}
 

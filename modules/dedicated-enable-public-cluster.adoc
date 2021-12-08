@@ -2,7 +2,7 @@
 //
 // * cloud_infrastructure_access/dedicated-private-cluster.adoc
 
-:_content-type: PROCEDURE
+
 [id="dedicated-enable-public-cluster"]
 = Enabling public cluster on a private cluster
 

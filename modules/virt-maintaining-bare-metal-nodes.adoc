@@ -2,7 +2,7 @@
 //
 // virt/node_maintenance/virt-about-node-maintenance.adoc
 
-:_content-type: CONCEPT
+
 [id="virt-maintaining-bare-metal-nodes_{context}"]
 = Maintaining bare metal nodes
 

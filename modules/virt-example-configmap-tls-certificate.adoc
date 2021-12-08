@@ -2,7 +2,7 @@
 //
 // * virt/virtual_machines/importing_vms/virt-tls-certificates-for-dv-imports.adoc
 
-:_content-type: REFERENCE
+
 [id="virt-example-configmap-tls-certificate_{context}"]
 = Example: Config map created from a TLS certificate
 
