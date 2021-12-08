@@ -46,10 +46,8 @@ $ oc get -n openshift-machine-api bmh <bare_metal_host_name> -o yaml
 .Example output
 [source,yaml]
 ----
-...
 status:
   errorCount: 12
   errorMessage: MAC address b4:96:91:1d:7c:20 conflicts with existing node openshift-worker-1
   errorType: registration error
-...
 ----

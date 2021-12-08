@@ -3,7 +3,7 @@
 // installing_ibm_cloud/install-ibm-cloud-installing-on-ibm-cloud.adoc
 
 :_content-type: PROCEDURE
-[id="configuring-the-install-config-file_{context}"]
+[id="ibm-configuring-the-install-config-file_{context}"]
 = Configuring the install-config.yaml file
 
 The `install-config.yaml` file requires some additional details. Most of the information is teaching the installer and the resulting cluster enough about the available IBM Cloud&#174; hardware so that it is able to fully manage it. The material difference between installing on bare metal and installing on IBM Cloud is that you must explicitly set the privilege level for IPMI in the BMC section of the `install-config.yaml` file.
