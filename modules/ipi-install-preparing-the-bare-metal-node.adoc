@@ -87,7 +87,7 @@ Replace `<bmc-ip>` with the IP address of the bare metal node's baseboard manage
 ////
 [NOTE]
 ====
-If the MAC address of an existing bare metal node matches the MAC address of a bare metal host that you are attempting to provision, then the Ironic installation will fail. If the host enrollment, inspection, cleaning, or other Ironic steps fail, the Bare Metal Operator retries the installation continuously. See xref:modules/ipi-install-diagnosing-duplicate-mac-address.adoc#ipi-install-diagnosing-duplicate-mac-address_{context}[Diagnosing a host duplicate MAC address] for more information.
+If the MAC address of an existing bare metal node matches the MAC address of a bare metal host that you are attempting to provision, then the Ironic installation will fail. If the host enrollment, inspection, cleaning, or other Ironic steps fail, the Bare Metal Operator retries the installation continuously. See Diagnosing a host duplicate MAC address for more information.
 ====
 ////
 

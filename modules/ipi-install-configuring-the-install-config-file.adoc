@@ -104,7 +104,7 @@ $ cp install-config.yaml ~/clusterconfigs
 ----
 $ ipmitool -I lanplus -U <user> -P <password> -H <management-server-ip> power off
 ----
-
+////
 ifeval::[{product-version} >= 4.6]
 . Remove old bootstrap resources if any are left over from a previous deployment attempt.
 +
@@ -120,6 +120,7 @@ do
   sudo virsh pool-undefine $i;
 done
 ----
+////
 
 endif::[]
 ////
