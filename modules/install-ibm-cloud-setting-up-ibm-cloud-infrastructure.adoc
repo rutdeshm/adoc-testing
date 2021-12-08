@@ -6,7 +6,7 @@
 [id="setting-up-ibm-cloud-infrastructure_{context}"]
 = Setting up IBM Cloud infrastructure
 
-To deploy an {product-title} cluster on IBM Cloud&#174;, you must first provision the IBM Cloud nodes.
+To deploy an {product-title} cluster on IBM Cloud, you must first provision the IBM Cloud nodes.
 
 [IMPORTANT]
 ====
