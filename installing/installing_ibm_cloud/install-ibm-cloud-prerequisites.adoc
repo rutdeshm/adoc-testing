@@ -21,5 +21,3 @@ Installer-provisioned installation of {product-title} requires:
 * One network for provisioning nodes
 
 Before starting an installer-provisioned installation of {product-title} on IBM Cloud, address the following prerequisites and requirements.
-
-include ::modules/install-ibm-cloud-setting-up-ibm-cloud-infrastructure.adoc[leveloffset=+1]

@@ -35,6 +35,7 @@
 // * installing/installing_ibm_power/installing-ibm-power.adoc
 // * installing/installing_ibm_power/installing-restricted-networks-ibm-power.adoc
 
+////
 ifeval::["{context}" == "installing-aws-customizations"]
 :aws:
 endif::[]
@@ -165,6 +166,7 @@ endif::[]
 ifeval::["{context}" == "installing-restricted-networks-ibm-power"]
 :ibm-power:
 endif::[]
+////
 
 :_content-type: REFERENCE
 [id="installation-configuration-parameters_{context}"]
@@ -189,6 +191,7 @@ After installation, you cannot modify these parameters in the `install-config.ya
 The `openshift-install` command does not validate field names for parameters. If an incorrect name is specified, the related file or object is not created, and no error is reported. Ensure that the field names for any parameters that are specified are correct.
 ====
 
+////
 [id="installation-configuration-parameters-required_{context}"]
 == Required configuration parameters
 
@@ -570,12 +573,14 @@ ifndef::aws,azure,gcp[]
 
 Setting this field to `Internal` is not supported on non-cloud platforms.
 ////
+////
 ifeval::[{product-version} <= 4.7]
 [IMPORTANT]
 ====
 If the value of the field is set to `Internal`, the cluster will become non-functional. For more information, refer to link:https://bugzilla.redhat.com/show_bug.cgi?id=1953035[BZ#1953035].
 ====
 endif::[]
+////
 ////
 endif::[]
 
@@ -974,11 +979,13 @@ The `licenses` parameter is a deprecated field and nested virtualization is enab
 |The GCP project ID.
 
 ////
+////
 `controlPlane.platform.gcp.osDisk.encryptionKey.kmsKeyServiceAccount`
 
 The GCP Compute Engine System service account used for the encryption request for the given KMS key. The Compute Engine default service account is always used for control plane machines during installation, which follows this pattern: `service-<project_number>@compute-system.iam.gserviceaccount.com`. The default service account must have access to the KMS key specified for the control plane machines. The custom service account defined is available for use during post-installation operations. For more information on GCP service accounts, see Google's documentation on link:https://cloud.google.com/iam/docs/service-accounts#types[Types of service accounts].
 
 The GCP Compute Engine System service account email, like `<service_account_name>@<project_id>.iam.gserviceaccount.com`.
+////
 ////
 // kmsKeyServiceAccount not yet fully supported in 4.7. Re-add when more stable.
 
@@ -1373,3 +1380,4 @@ endif::[]
 ifeval::["{context}" == "installing-restricted-networks-ibm-power"]
 :!ibm-power:
 endif::[]
+////
