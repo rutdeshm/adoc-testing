@@ -3,7 +3,8 @@ variants:
  - name: okd
    attributes:
     - _artifacts/okd-attributes.adoc
-   build: true
+    - _artifacts/common-attributes.adoc
+   build: false
    files:
      included:
        - architecture/**/*.adoc
@@ -20,6 +21,7 @@ variants:
  - name: openshift-container-platform
    attributes:
     - _artifacts/ocp-attributes.adoc
+    - _artifacts/common-attributes.adoc
    build: true
    files:
      included:
@@ -38,7 +40,8 @@ variants:
  - name: openshift-dedicated
    attributes:
     - _artifacts/osd-attributes.adoc
-   build: true
+    - _artifacts/common-attributes.adoc
+   build: false
    files:
      included:
        - architecture/**/*.adoc
