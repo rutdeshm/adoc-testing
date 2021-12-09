@@ -11,6 +11,8 @@ variants:
        - modules/**/*.adoc
        - whats_new/**/*.adoc
        - installing/**/*.adoc
+       - images/*.png
+       - images/*.svg
      excluded:
        - getting_started
        - cloud_infrastructure_access
@@ -26,6 +28,8 @@ variants:
        - modules/**/*.adoc
        - release_notes/**/*.adoc
        - installing/**/*.adoc
+       - images/*.png
+       - images/*.svg
      excluded:
        - whats_new
        - getting_started
@@ -43,6 +47,8 @@ variants:
        - getting_started/**/*.adoc
        - cloud_infrastructure_access/**/*.adoc
        - administering_a_cluster/**/*.adoc
+       - images/*.png
+       - images/*.svg
      excluded:
        - installing
        - whats_new
