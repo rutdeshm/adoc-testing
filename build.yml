@@ -7,7 +7,7 @@ variants:
    files:
      included:
        - architecture/**/*.adoc
-       - /**/*.adoc
+       - welcome/**/*.adoc
        - modules/**/*.adoc
        - whats_new/**/*.adoc
        - installing/**/*.adoc
@@ -26,7 +26,7 @@ variants:
    files:
      included:
        - architecture/**/*.adoc
-       - wme/**/*.adoc
+       - welcome/**/*.adoc
        - modules/**/*.adoc
        - release_notes/**/*.adoc
        - installing/**/*.adoc
@@ -46,7 +46,7 @@ variants:
    files:
      included:
        - architecture/**/*.adoc
-       - we/**/*.adoc
+       - welcome/**/*.adoc
        - modules/**/*.adoc
        - getting_started/**/*.adoc
        - cloud_infrastructure_access/**/*.adoc
