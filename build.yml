@@ -3,11 +3,11 @@ variants:
  - name: okd
    attributes:
     - _artifacts/okd-attributes.adoc
-   build: false
+   build: true
    files:
      included:
        - architecture/**/*.adoc
-       - welcome/**/*.adoc
+       - /**/*.adoc
        - modules/**/*.adoc
        - whats_new/**/*.adoc
        - installing/**/*.adoc
@@ -22,11 +22,11 @@ variants:
  - name: openshift-container-platform
    attributes:
     - _attributes/ocp-attributes.adoc
-   build: false
+   build: true
    files:
      included:
        - architecture/**/*.adoc
-       - welcome/**/*.adoc
+       - wme/**/*.adoc
        - modules/**/*.adoc
        - release_notes/**/*.adoc
        - installing/**/*.adoc
@@ -42,11 +42,11 @@ variants:
  - name: openshift-dedicated
    attributes:
     - _artifacts/osd-attributes.adoc
-   build: false
+   build: true
    files:
      included:
        - architecture/**/*.adoc
-       - welcome/**/*.adoc
+       - we/**/*.adoc
        - modules/**/*.adoc
        - getting_started/**/*.adoc
        - cloud_infrastructure_access/**/*.adoc
